@@ -1,0 +1,168 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+#cont {}
+
+#bg1 {
+    width: 60%;
+    z-index: 0;
+    margin-left: 45%;
+
+}
+
+.conteiner {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    z-index: 10;
+
+}
+
+#capa {
+
+    max-width: 100vh;
+    display: flex;
+}
+
+#logo {
+    position: relative;
+    width: 14vh;
+    margin-top: 0;
+    left: 0;
+    z-index: 6;
+}
+
+
+#phone {
+    padding-top: 0%;
+    margin-top: 0%;
+    position: relative;
+    left: 90%;
+    z-index: 5;
+}
+
+#abertura {
+    position: absolute;
+    top: 0%;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+
+h1,
+span,
+h4 {
+    z-index: 1;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 80%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+}
+
+#ct {
+    margin-left: 6%;
+    color: rgb(255, 255, 255);
+}
+
+#navi {
+    margin-top: 4px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 85.2%;
+    color: white;
+    font-size: 16pt;
+}
+
+span {
+    color: #0099d0;
+    font-size: 16pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#dio {
+    color: #0099d0;
+    font-size: 25pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+b {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100pt;
+    color: #0099d0;
+}
+
+.button {
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 8, 109, 1) 5%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.8;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(2, 0, 36, 1) 100%);
+}
+
+.main {
+
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.cab {
+    width: 100%;
+    height: 35px;
+    background-color: #0099d0;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    max-height: 20vh;
+    z-index: 5;
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70vh;
+    padding: 0px;
+}
+
+
+.footer {
+    background-color: #0099d0;
+    min-height: 23vh;
+    z-index: 5;
+}
